@@ -1,0 +1,72 @@
+.modal-content {
+  background-color: transparent;
+}
+
+.modal_container {
+  background-color: var(--bgColorPrimary);
+  border: 1px solid var(--borderColor) !important;
+  color: var(--textColorPrimary);
+  border-radius: 10px;
+}
+
+.modal_container_top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.modal_container_top .user_avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.modal_container_top .user_name {
+  font-size: 20px;
+}
+
+.modal_container_center {
+  padding: 20px 40px;
+}
+
+.modal_container_center .notification_btn_container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.modal_container_center .notification_sound_btn {
+  width: 60px;
+  height: 30px;
+  border-radius: 999px;
+  border: 1px solid var(--borderColor);
+  outline: 0;
+  background-color: var(--bgColorPrimary);
+  position: relative;
+  transition: 0.3s linear;
+}
+
+.modal_container_center .notification_sound_btn.active {
+  background-color: var(--activeButtonColor);
+}
+
+.modal_container_center .notification_sound_btn .circle {
+  width: 20px;
+  height: 20px;
+  background-color: var(--buttonBgColor);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  right: 0;
+  bottom: 0;
+  transform: translate(0, -50%);
+  transition: 0.3s ease-in-out;
+}
+
+.modal_container_center .notification_sound_btn.active .circle {
+  left: 33px;
+  background-color: var(--activeCircle);
+}

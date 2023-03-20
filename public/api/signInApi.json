@@ -1,0 +1,9 @@
+{
+  "odata.metadata": "https://localhost:50000/b1s/v1/$metadata#B1Sessions/@Element",
+  "userName": "Atikul Jaman",
+  "userStateId": "9297",
+  "userPassword": "123456",
+  "SessionId": "0efa19ba-c19a-11ed-8000-00155d0202b5",
+  "Version": "1000170",
+  "SessionTimeout": 30
+}

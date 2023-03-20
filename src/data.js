@@ -1,0 +1,43 @@
+const allTabData = [
+  {
+    "odata.metadata": "https://sapsrv:50000/b1s/v1/$metadata#ServiceCalls",
+    value: [
+      {
+        ServiceCallID: 120,
+        Subject: "string",
+        CustomerCode: "string",
+        CustomerName: "string",
+        InternalSerialNum: "string",
+        ItemCode: "string",
+        ItemDescription: "string",
+        Status: -3,
+        CallType: 3,
+        ProblemType: 6,
+      },
+      {
+        ServiceCallID: 125,
+        Subject: "string",
+        CustomerCode: "string",
+        CustomerName: "string",
+        InternalSerialNum: "string",
+        ItemCode: "string",
+        ItemDescription: "string",
+        Status: -3,
+        CallType: 3,
+        ProblemType: 6,
+      },
+      {
+        ServiceCallID: 126,
+        Subject: "string",
+        CustomerCode: "string",
+        CustomerName: "string",
+        InternalSerialNum: "string",
+        ItemCode: "string",
+        ItemDescription: "string",
+        Status: -3,
+        CallType: 3,
+        ProblemType: 6,
+      },
+    ],
+  },
+];

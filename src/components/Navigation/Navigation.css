@@ -1,0 +1,105 @@
+.logo_active {
+  filter: brightness(0) saturate(100%);
+}
+
+.nav_link {
+  color: var(--textColorPrimary) !important;
+  font-weight: 300;
+  padding: 0 20px !important;
+  text-decoration: none !important;
+}
+
+.navbar_right {
+  color: var(--textColorPrimary);
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.toggle_btn {
+  border: 1px solid var(--borderColor);
+  width: 60px;
+  height: 30px;
+  border-radius: 999px;
+  background-color: var(--bgColorPrimary);
+  position: relative;
+}
+
+.toggle_btn .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background-color: var(--borderColor);
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  right: 0;
+  bottom: 0;
+  transform: translate(-0, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--toggleIconColor);
+  padding: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.toggle_btn .circle.active {
+  left: 33px;
+  padding: 4px;
+}
+
+.navbar_right .dropdown_btn {
+  background-color: var(--bgColorPrimary);
+  border: 0;
+  outline: 0;
+  color: var(--textColorPrimary) !important;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.navbar_right .dropdown_btn::after {
+  display: none;
+}
+
+.navbar_right .dropdown_btn.btn.btn-primary {
+  background-color: transparent;
+}
+
+.navbar_right .dropdown_menu {
+  background-color: var(--bgColorPrimary);
+  border: 1px solid var(--borderColor) !important;
+  padding: 0;
+}
+
+.navbar_right .menu_item {
+  color: var(--textColorPrimary);
+  border-bottom: 1px solid var(--borderColor);
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.navbar_right .menu_item:last-child {
+  border: 0;
+}
+
+.navbar_right .menu_item:hover {
+  background-color: var(--hoverColor);
+  color: black;
+  font-weight: 300 !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar_right .sign_in_btn_container .sign_in_btn {
+  background-color: var(--bgColorPrimary);
+  color: var(--textColorPrimary);
+  outline: 0;
+  border: 1px solid var(--borderColor);
+  width: 100px;
+  height: 30px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 300;
+}

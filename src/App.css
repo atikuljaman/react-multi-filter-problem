@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+.dark_theme {
+  --bgColorPrimary: #212529;
+  --bgColorSecondary: #2a2f34;
+  --textColorPrimary: #adbac7;
+  --textColorSecondary: rgba(255, 255, 255, 0.76);
+  --borderColor: rgba(255, 255, 255, 0.295);
+  --buttonBgColor: #adbac7;
+  --toggleIconColor: white;
+  --hoverColor: #adbac7;
+  --activeButtonColor: #1cbc71;
+  --activeCircle: white;
+  --badgeTagColor: #adbac7;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.light_theme {
+  --bgColorPrimary: white;
+  --bgColorSecondary: #f3f3f3;
+  --textColorPrimary: #333;
+  --textColorSecondary: black;
+  --borderColor: rgba(0, 0, 0, 0.5);
+  --buttonBgColor: #adbac7;
+  --toggleIconColor: yellow;
+  --hoverColor: rgba(207, 207, 207, 0.486);
+  --activeButtonColor: #1cbc71;
+  --activeCircle: white;
+  --badgeTagColor: #d1d1d1b7;
 }

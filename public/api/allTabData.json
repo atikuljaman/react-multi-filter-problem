@@ -1,0 +1,93 @@
+{
+  "odata.metadata": "https://sapsrv:50000/b1s/v1/$metadata#ServiceCalls",
+  "value": [
+    {
+      "ServiceCallID": 120,
+      "Subject": "None",
+      "CustomerCode": "CustomerCode_1",
+      "CustomerName": "John Smith",
+      "InternalSerialNum": "231",
+      "ItemCode": "Item_A",
+      "ItemDescription": "Item_desc_1",
+      "Status": -3,
+      "CallType": 3,
+      "ProblemType": 6
+    },
+    {
+      "ServiceCallID": 125,
+      "Subject": "None",
+      "CustomerCode": "CustomerCode_2",
+      "CustomerName": "Joe Doe",
+      "InternalSerialNum": "028",
+      "ItemCode": "Item_B",
+      "ItemDescription": "Item_desc_2",
+      "Status": -3,
+      "CallType": 3,
+      "ProblemType": 6
+    },
+    {
+      "ServiceCallID": 126,
+      "Subject": "None",
+      "CustomerCode": "CustomerCode_3",
+      "CustomerName": "Morgan",
+      "InternalSerialNum": "861",
+      "ItemCode": "Item_C",
+      "ItemDescription": "Item_desc_3",
+      "Status": -3,
+      "CallType": 3,
+      "ProblemType": 6
+    },
+
+    {
+      "ServiceCallID": 916,
+      "Subject": "None",
+      "CustomerCode": "CustomerCode_4",
+      "CustomerName": "Wade",
+      "InternalSerialNum": "861",
+      "ItemCode": "Item_A",
+      "ItemDescription": "Item_desc_4",
+      "Status": -3,
+      "CallType": 3,
+      "ProblemType": 6
+    },
+
+    {
+      "ServiceCallID": 216,
+      "Subject": "None",
+      "CustomerCode": "CustomerCode_5",
+      "CustomerName": "Wade",
+      "InternalSerialNum": "861",
+      "ItemCode": "Item_B",
+      "ItemDescription": "Item_desc_5",
+      "Status": -3,
+      "CallType": 3,
+      "ProblemType": 6
+    },
+
+    {
+      "ServiceCallID": 316,
+      "Subject": "None",
+      "CustomerCode": "CustomerCode_6",
+      "CustomerName": "Joe Doe",
+      "InternalSerialNum": "861",
+      "ItemCode": "Item_A",
+      "ItemDescription": "Item_desc_3",
+      "Status": -3,
+      "CallType": 3,
+      "ProblemType": 6
+    },
+
+    {
+      "ServiceCallID": 206,
+      "Subject": "None",
+      "CustomerCode": "CustomerCode_7",
+      "CustomerName": "Morgan",
+      "InternalSerialNum": "861",
+      "ItemCode": "Item_C",
+      "ItemDescription": "Item_desc_2",
+      "Status": -3,
+      "CallType": 3,
+      "ProblemType": 6
+    }
+  ]
+}
